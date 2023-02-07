@@ -1,6 +1,8 @@
 import type { NextPage } from "next"
 import About from "./About/page"
+import Contact from "./Contact/page"
 import Hero from "./Hero/page"
+import Projects from "./Projects/page"
 
 const Home: NextPage = () => {
     return (
@@ -14,10 +16,13 @@ const Home: NextPage = () => {
                 <About />
             </section>
             {/* Projects */}
+            <section id="projects">
+                <Projects />
+            </section>
             {/* Contact */}
-            <div>
-                <h1>Thomas Gandolfo</h1>
-            </div>
+            <section id="contact">
+                <Contact />
+            </section>
         </div>
     )
 }
