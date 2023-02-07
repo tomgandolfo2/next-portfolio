@@ -1,10 +1,10 @@
-import type { NextPage } from "next"
+import type { FC } from "react"
 import About from "./About/page"
 import Contact from "./Contact/page"
 import Hero from "./Hero/page"
 import Projects from "./Projects/page"
 
-const Home: NextPage = () => {
+const Home: FC = () => {
     return (
         <div className="">
             {/* Hero */}
